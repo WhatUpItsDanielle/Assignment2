@@ -5,3 +5,40 @@ Blue: #90BEDE
 Aquamarine: #68EDC6
 Electric Blue: 90F3FF 
 */
+* {
+    font-family: 'Merriweather', serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 30px;
+    padding: 0px 15px 0px 15px;
+    background-color:#E5E1EE;
+}
+
+h1{
+    font-family: 'Zen Loop', cursive;
+}
+
+.img{
+    background-image: linear-gradient(to bottom, #68edc6, white);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bttn{
+    background-color:#90BEDE;
+}
+
+#up{
+    height: 75px;
+}
+
+nav > ul > li{
+    display: inline;
+}
+
