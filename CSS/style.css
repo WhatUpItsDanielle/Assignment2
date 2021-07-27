@@ -22,6 +22,14 @@ h1{
     font-family: 'Zen Loop', cursive;
 }
 
+.main{
+    display:flex;
+    justify-content: space-around;
+
+    background-color:#E5E1EE;
+
+}
+
 .img{
     background-image: linear-gradient(to bottom, #68edc6, white);
     height: 100%;
@@ -30,7 +38,7 @@ h1{
     background-size: cover;
 }
 
-.new{
+.bttn{
     background-color:#90BEDE;
 }
 
